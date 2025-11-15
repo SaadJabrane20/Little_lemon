@@ -24,27 +24,42 @@ The project simulates a real restaurant website where visitors can browse menu i
 
 ---
 
-## 🗂 Project Structure
+## 📂 Project Structure
 
 Little_lemon/
 │
-├── littlelemon/ # Main Django settings and configuration
-├── restaurant/ # Main application folder
-│ ├── models.py # Menu & Booking models
-│ ├── views.py # Views for routing logic
-│ ├── urls.py # App-level URL routing
-│ ├── forms.py # Booking form (ModelForm)
-│ └── templates/ # Template files
-│   ├── base.html
-│   ├── index.html
-│   ├── about.html
-│   ├── menu.html
-│   ├── menu_item.html
-│   └── book.html
+├── littlelemon/              # Main Django settings and configuration
+│   ├── __init__.py
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
 │
-├── static/ # Static images & assets
-├── db.sqlite3 # SQLite database
-└── manage.py
+├── restaurant/               # Main application folder
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── forms.py              # Booking form (ModelForm)
+│   ├── models.py             # Menu & Booking models
+│   ├── urls.py               # App-level URL routing
+│   ├── views.py              # Views for routing logic
+│   └── templates/            # Template files
+│       ├── base.html
+│       ├── index.html
+│       ├── about.html
+│       ├── menu.html
+│       ├── menu_item.html
+│       └── book.html
+│
+├── static/                   # Static images & assets
+│   └── img/
+│       └── menu_items/
+│           └── *.jpg
+│
+├── db.sqlite3                # SQLite database
+├── manage.py
+└── README.md
+
 
 
 ---
