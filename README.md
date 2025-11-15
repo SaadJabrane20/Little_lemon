@@ -26,39 +26,36 @@ The project simulates a real restaurant website where visitors can browse menu i
 
 ## 📂 Project Structure
 
-Little_lemon/
-│
-├── littlelemon/              # Main Django settings and configuration
-│   ├── __init__.py
-│   ├── asgi.py
-│   ├── settings.py
-│   ├── urls.py
-│   └── wsgi.py
-│
-├── restaurant/               # Main application folder
-│   ├── __init__.py
-│   ├── admin.py
-│   ├── apps.py
-│   ├── forms.py              # Booking form (ModelForm)
-│   ├── models.py             # Menu & Booking models
-│   ├── urls.py               # App-level URL routing
-│   ├── views.py              # Views for routing logic
-│   └── templates/            # Template files
-│       ├── base.html
-│       ├── index.html
-│       ├── about.html
-│       ├── menu.html
-│       ├── menu_item.html
-│       └── book.html
-│
-├── static/                   # Static images & assets
-│   └── img/
-│       └── menu_items/
-│           └── *.jpg
-│
-├── db.sqlite3                # SQLite database
-├── manage.py
-└── README.md
+- **Little_lemon/**
+  - **littlelemon/**  — main Django settings and configuration  
+    - `__init__.py`  
+    - `asgi.py`  
+    - `settings.py`  
+    - `urls.py`  
+    - `wsgi.py`
+  - **restaurant/**  — main application folder  
+    - `__init__.py`  
+    - `admin.py`  
+    - `apps.py`  
+    - `forms.py` *(Booking form — ModelForm)*  
+    - `models.py` *(Menu & Booking models)*  
+    - `urls.py` *(app-level URL routing)*  
+    - `views.py`  
+    - **templates/**  
+      - `base.html`  
+      - `index.html`  
+      - `about.html`  
+      - `menu.html`  
+      - `menu_item.html`  
+      - `book.html`
+  - **static/**  — static files & images  
+    - **img/**
+      - **menu_items/**  
+        - `*.jpg`
+  - `db.sqlite3`  — SQLite database  
+  - `manage.py`  
+  - `README.md`
+
 
 
 
